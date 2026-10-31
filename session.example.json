@@ -1,0 +1,38 @@
+{
+ "_comment": "复制本文件为 session.json 并填入真实值。所有字段都是字符串。",
+ "_comment_auto": "推荐直接用 python login_new_account.py --qr 自动生成，不需要手填。",
+
+ "userId": "",
+ "uin": "",
+ "token": "",
+ "accessToken": "",
+ "appOpenid": "",
+
+ "gameId": "1006",
+ "game_code": "dnf",
+
+ "uniqueRoleId": "",
+ "sRoleId": "",
+ "sPartition": "",
+ "serverName": "",
+ "roleName": "",
+ "roleJob": "",
+ "roleLevel": "",
+ "areaName": "",
+
+ "nickname": "",
+ "appidTask": "1000042",
+
+ "_field_notes": {
+  "userId": "助手侧用户 ID，numeric",
+  "uin": "QQ 号",
+  "token": "助手登录态 token，会过期",
+  "accessToken": "QQ OAuth access_token",
+  "appOpenid": "QQ 互联 openid",
+  "sPartition": "等于角色所在 serverId（不是 areaId）",
+  "sRoleId": "角色 ID，取自 /game/chatroles 的 originalRoleId",
+  "uniqueRoleId": "取自 /game/chatroles 的 roleId。注意两个 ID 是交叉对应的，填反会报 2009。",
+  "serverName": "角色所在服务器名，如 河南一区",
+  "roleName": "角色名"
+ }
+}

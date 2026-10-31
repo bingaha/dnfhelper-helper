@@ -1,0 +1,21 @@
+# 登录态与凭证 —— 绝对不要提交
+session.json
+qq_oauth.json
+qr_state.json
+qr_login.png
+qr_login_big.png
+qr_poll_raw.txt
+poll.log
+login.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
